@@ -10,6 +10,11 @@
   font-family: inter;
   src: url('assets/fonts/static/Inter-Regular.ttf') format('truetype')
   }
+
+  @font-face {
+    font-family: inter-bold;
+    src: url('assets/fonts/static/Inter-Bold.ttf') format('truetype')
+  }
   </style>
   <script src="https://cdn.tailwindcss.com"></script>
   <script>
@@ -91,7 +96,7 @@
       <img class="sm:visible invisible h-0 sm:h-auto" src="assets/images/image-web-3-desktop.jpg" alt="web 3 art"/>
     </div >
     <div class="sm:grid sm:grid-cols-2">
-      <h1 class="font-inter text-4xl font-extrabold p-2" >The Bright Future of Web 3.0?</h1>
+      <h1 class="font-inter-bold text-4xl font-extrabold p-2" >The Bright Future of Web 3.0?</h1>
       <div>
       <p class="font-inter text-normal font-regular p-2 text-xs leading-6">
         We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people.
@@ -104,19 +109,19 @@
     </div>
   </div>
 
-  <div class="grid grid-rows-6 bg-black text-white m-2 py-6">
-    <div class="text-softorange text-3xl font-extrabold mx-4 ">New</div>
-    <div class="px-4 text-sm ">
+  <div class="bg-black text-white m-2 py-6">
+    <div class="text-softorange text-3xl font-extrabold mx-4 mb-8">New</div>
+    <div class="m-4 pb-2 text-sm border-darkgrayishblue border-b-2 pb-6">
       <h2 class="text-base font-extrabold mb-2 ">Hydrogen VS Electric Cars</h2>
       <p class="text-grayishblue">Will hydrogen-fueled cars ever catch up to EVs?</p>
     </div>
-    <hr class="h-px mx-4 mt-6 mb-0 bg-darkgrayishblue border-0 ">
-    <div class="px-4 text-sm "><h2 class="text-base font-extrabold mb-2 ">The Downsides of AI Artistry</h2>
-      <p class="text-grayishblue">What are the possible adverse effects of on-demand AI image generation?
+    <div class="m-4 text-sm border-darkgrayishblue border-b-2 pb-6">
+      <h2 class="text-base font-extrabold mb-2 ">The Downsides of AI Artistry</h2>
+      <p class="text-grayishblue ">What are the possible adverse effects of on-demand AI image generation?
       </p>
     </div>
-    <hr class="h-px mx-4 mt-6 mb-0 bg-darkgrayishblue border-0 ">
-    <div class="px-4 text-sm "><h2 class="text-base font-extrabold mb-2 ">Is VC Funding Drying Up?</h2>
+    <div class="m-4 text-sm pb-6">
+      <h2 class="text-base font-extrabold mb-2">Is VC Funding Drying Up?</h2>
       <p class="text-grayishblue">Private funding by VC firms is down 50% YOY. We take a look at what that means.</p>
     </div>
   </div>
